@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit-6 формы</title>
+
+    <style>
+        form{
+            padding: 30px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 20px;
+            border: 1px solid red;
+        }
+        label{
+            display: flex;
+            gap: 20px;
+            background-color: aqua;
+            padding: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="http://127.0.0.1:5500/Barkhalev.github.io/Unit-6/forms.html" method="get">
+        <label> <p>Введите запрос</p>
+        <input type="text" name="text" placeholder="Введите запрос"></input>
+        <input type="submit" value="Отправить" ></input>
+        </label>
+
+        <label> <h4>Логин</h4> 
+        <input id="user" type="text" name="user" placeholder="Введите логин"></input>
+        <p><input type="password" name="pass" placeholder="Введите пароль"></input></p>
+        <input type="submit" value="Отправить" ></input>
+        </label>
+        
+        <label><p>Введите номер телефона</p> 
+        <input type="tel" name="phone" placeholder="Введите номер телефона" id=""></input>
+        <input type="submit" value="Отправить" ></input>
+        </label>
+
+        <label><h3>Введите email</h3> 
+        <input type="email"name="email"placeholder="Введите email"></input>
+        <input type="submit" value="Отправить" ></input>
+        </label>
+
+        <!-- <input type="hidden" value="" name="name">
+        <input type="hidden" value="35" name="age">
+    <button type="submit">Отправить</button>     -->
+
+         <label >
+            <h4>Доставить сегодня</h4>
+            <input type="checkbox">
+        </label>
+
+
+        <label >
+            <span>Оплата картой</span>
+            <input type="checkbox" name="card" value="true">
+        </label>
+        <label >
+            <span>Оплата курьеру</span>
+            <input type="checkbox" name="worker" value="true">
+        </label>
+
+
+            
+        <h4>Когда доставить</h4>
+        <label >            
+            <span>Сегодня</span>
+            <input type="radio" name="delivery" value="Сегодня">
+        </label>
+
+        <label >
+            <span>Завтра</span>
+            <input type="radio" name="delivery" value="Завтра">
+        </label> 
+
+        <label ><span>На следующей неделе</span>
+            <input type="radio" name="delivery" value="На следующей неделе">
+            
+        </label>
+
+
+        <label >
+            <span>Введите адрес доставки</span>
+            <textarea placeholder="Куда привезти" name="addres" id="" cols="50" rows="10"></textarea>
+
+        </label>
+        http://127.0.0.1:5500/Barkhalev.github.io/Unit-6/forms.html?text=&user=&pass=&phone=&email=&addres=Россия%2C%0D%0AПермь%2C%0D%0Aпроспект+Декабристов+1-206
+    
+        
+
+        <label>
+            <span>Пожалуста введите ваш возраст:</span>
+            <select name="Возраст" >
+                <option value="false">Введите возраст</option>
+                <optgroup label="Молодые">
+                    <option value="10-15">10-15</option>
+                    <option value="15-20">15-20</option>
+                    <option value="20-25">20-25</option>
+                </optgroup>
+                <optgroup label="Взрослые">
+                    <option value="25-30">25-30</option>
+                    <option value="30-35">30-35</option>
+                    <option value="34-40">34-40</option>
+                </optgroup>      
+            </select>
+        </label>
+
+        </label>
+        <input type="submit" value="Кнопка-Отправить">
+        <input type="reset" value="Кнопка-Сбросить">
+        
+        <button type="submit">Кнопка-Отправить</button>
+        <button type="reset">Кнопка-Сбросить</button>
+      
+        <fieldset>
+            <legend>Legend Данные пользователя</legend>
+            <label>
+                <span>Логин</span> 
+                <input id="user" type="text" name="user" placeholder="Введите логин"></input>
+            </label>
+            <label >
+                <span>Пароль</span>
+                <input type="password" name="pass" placeholder="Введите пароль"></input>
+            </label>
+            <label >
+                <span>Телефон</span>
+                <input type="tel" name="phone" placeholder="Введите номер телефона" id=""></input>
+            </label>
+            <label >
+                <span>Email</span>
+                <input type="email"name="email"placeholder="Введите email"></input>
+            </label>
+
+        </fieldset>
+
+        <input type="hidden" value="true" name="isLoggen">
+
+    </form>
+    
+</body>
+</html>
