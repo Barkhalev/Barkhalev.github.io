@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit-7 media.html</title>
+</head>
+<body>
+
+<b>audio</b> - для вывода аудиофайлов на страницу
+<br>
+<b>video</b> - для вывода видеофайлов на страницу
+<br>
+<b>source</b> - для указания разных форматов медиафайлов на страницу
+<br>
+<h2>Audio </h2>
+<ul>
+    <li><b>src</b> - путь до файла который будет играть</li>
+    <li><b>control</b> - показывать элементы управления</li>
+    <li><b>autoplay</b> - сразу начать проигрывать файл</li>
+    <li><b>muted</b> - включить беззвучный режим</li>
+    <li><b>loop</b> - бесконечно проигрывать звуковой файл</li>
+    <li><b>preload</b> - как браузер будет загружать файл</li>
+    <li><b>none</b> - не загрузит пока не нажмешь воспроизведение</li>
+    <li><b>metadata</b></li>
+</ul>
+<audio src="media/Agata-Kristi-Davay-vecherom-s-toboy-vstretimsya-Budem-opium-kurit_-rit_-rit_(muzofon.com).mp3" controls preload="none">
+
+<audio controls preload="metadata"">
+    <source src="audio/music.mp3" type="audio/mpeg">
+    <source src="audio/music.ogg" type="audio/ogg;">
+    <source src="audio/music.wav" type="audio/wav;">
+    Тег audio не поддерживается вашим браузером. 
+    <a href="audio/music.mp3"download>Скачайте музыку</a>.
+</audio>
+
+<br><br><br>
+
+<h2>Video </h2>
+<ul>
+    <li><b>src</b> - путь до файла который будет играть</li>
+    <li><b>width</b> - ширина видео</li>
+    <li><b>height</b> - высота видео</li>
+    <li><b>control</b> - показывать элементы управления</li>
+    <li><b>autoplay</b> - сразу начать проигрывать файл</li>
+    <li><b>muted</b> - включить беззвучный режим</li>
+    <li><b>loop</b> - бесконечно проигрывать звуковой файл</li>
+    <li><b>preload</b> - как браузер будет загружать файл</li>
+    <li><b>none</b> - не загрузит пока не нажмешь воспроизведение</li>
+    <li><b>metadata</b></li>
+    <li><b>poster</b> - постер для видео</li>
+</ul>
+<!-- <video width="400" height="" src="media/whatsaper_april_garik.mp4"controls poster></video> -->
+<video width="400" src=""controls></video>
+
+
+<iframe width="300" height="150" src="https://www.youtube.com/embed/7qBfdcI-d1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
