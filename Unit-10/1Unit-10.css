@@ -1,0 +1,40 @@
+/* body{
+    background-color: red !important;
+} */
+
+* {
+    color: rgb(162, 53, 212);
+}
+
+h1{
+    color: Navy;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 0px 10px greenyellow, 3px 20px lavender ;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+.poems{
+    background-color: rgb(212, 203, 192);
+}
+.item1{
+    color: red;
+}
+.item2{
+    color: rgb(194, 194, 31);
+}
+#main11{
+    background-color: seagreen;
+    color: yellow;
+}
+[type="text"] {
+    font-size: 20px;
+    background-color: silver;
+    color: rgb(202, 192, 78);
+    font-weight: bold; 
+    
+}
