@@ -1,6 +1,38 @@
 /* body{
     background-color: red;
 } */
+
+/* 1. --имя переменной: значение -переменной
+2. var(--имя переменной)
+
+БЭМ
+block
+block_modificator
+block__element
+block__element_modificator
+
+tag,
+class,
+class class,
+class > class,
+class + class,
+class ~ class,
+
+before,
+after,
+first-child,
+last-child,
+nth-child
+
+hover,
+active,
+focus,
+first-letter,
+first-line,
+not
+
+*/
+
 span{
     display: block;
 }
