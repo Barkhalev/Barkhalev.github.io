@@ -1,0 +1,38 @@
+/* html, body{ 
+   min-width: 100vw;
+   min-height: 100vh;
+   margin: 0;
+   padding: 0; 
+}
+html{
+    box-sizing: border-box;
+}
+*. * ::before, *::after{
+    box-sizing: inherit;
+} */
+
+* {
+    line-height: 1.4 ;
+    font-size: 1.5rem;
+}
+p{
+    width: 500px;
+    height: 300px;
+    margin: 100px;
+    box-shadow: 20px 20px 20px 50px red,
+                -30px -50px 10px 50px green inset;  
+    border-radius: 10px;
+    /* line-height: initial; */
+    background-color: rgba(43, 25, 11, 0.3);
+    color: #12a79f;
+   
+} 
+/* a{
+    color: inherit;
+}
+a{
+    color: initial;
+} */
+a{
+    text-decoration-style: dashed;
+}
