@@ -36,3 +36,41 @@ a{
 a{
     text-decoration-style: dashed;
 }
+
+
+
+ 
+/*p{
+    padding: 10px;
+    background-color: rgba(255, 100,100, 0.3);
+    color: blue;
+}
+
+a{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-style: dashed; 
+    border-bottom: 3px solid red;
+}
+
+a::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: green;
+    bottom: 0;
+    left: 0;
+    border-radius: 999px;
+    transition: all .7s ease-out;
+    opacity: 0; 
+    
+}
+a:hover::after{
+    width: 100%;
+    opacity: 1;
+}  */

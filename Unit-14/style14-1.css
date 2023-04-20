@@ -1,0 +1,97 @@
+/* p{
+    padding: 10px;
+    background-color: rgba(255, 100,100, 0.3);
+    color: blue;
+}
+
+a{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-style: dashed;
+    border-bottom: 3px solid red;
+}
+
+a::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: green;
+    bottom: 0;
+    left: 0;
+    border-radius: 999px;
+    transition: all .7s ease-out;
+    opacity: 0; 
+    
+}
+a:hover::after{
+    width: 100%;
+    opacity: 1;
+} */
+
+
+/* header,nav,ul{
+    width: 100%;
+    height: auto;
+    background-color: lightblue;
+    font-family:'Heebo', sans-serif;
+} 
+
+nav{
+    padding: 0 150px ;
+    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #828282 ;
+    height: 87.94px;
+    width: 940.6px;
+
+} */
+
+/* <style>
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+</style> */
+
+
+p{
+    text-shadow: 5px 5px 3px red;
+    background-color: rgba(25,90 ,125, 0.3);
+}
+
+h2{
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: blue;
+    font-size: 20px;
+    text-decoration: overline;
+    text-align: center;
+
+}
+h3{
+    font-family: Gilroy Medium, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline; 
+    text-transform: capitalize;
+    text-align: right;
+    line-height: 3;
+    color: yellow;
+}
+button{
+    text-transform: uppercase;
+}
