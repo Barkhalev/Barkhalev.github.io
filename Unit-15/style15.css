@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(64, 150, 121);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+h1,h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: red;
+    font-style:italic;
+    text-align: center;
+    padding: 0.2vw;
+    font-size: 3vw;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    background-color: blue;
+    justify-content: space-between;
+    font-size: 24px;
+    gap: 20px;
+    margin: 0px 0px;
+    padding: 20px;
+    align-items: center;
+}
+
+li{
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    border: 5px solid yellowgreen;
+    border-radius: 50%;
+    font-weight: 900;
+    padding: 20px 20px;
+    /* width: 33.33333333333333333333%; */
+    text-align: center;
+    padding: 0.2vw;
+    font-size: 3vw;
+    width: calc(100% / 3);
+    /* width: calc((100% - 10px * 2) / 3); */
+}
+
+li:nth-child(odd) {
+    background-color: yellow;
+}
+
+.leopard{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px 0px;
+    opacity: 0.2;
+    }
+.leopard:hover{
+    width: 900px;
+    height: 300px;
+    opacity: 1;
+    transition-property: width;
+    transition: 
+    width 2s ease-in-out,
+    height 2s ease-in 1.5s;    
+}
+
+
+.jumping-cat {
+    text-align: center;
+	-webkit-animation: jumping-cat 5s ease-in-out infinite ;
+	        animation: jumping-cat 5s ease-in-out infinite ;
+}
+
+ @-webkit-keyframes jumping-cat {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes jumping-cat {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+
+/* div{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border-radius: 50%;
+    box-shadow: inset -10px -10px 40px 20px red;
+    
+    transition-property: width;
+    transition-property: height;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    
+    /* transition: widht 0.7s ease-in 2s height 2s linear ; */
+    
+    /* transition: all is linear .2s; */
+/*}
