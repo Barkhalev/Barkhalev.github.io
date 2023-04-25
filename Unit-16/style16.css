@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+h1,h2{
+    text-align: center;
+    color: blue;
+}
+
+.cat-kitten-baby{
+    display:block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    transition: all .3s ease-out;
+    filter: blur(0px);
+    cursor: pointer;
+}
+
+.cat-kitten-baby:hover{
+    filter: blur(1000px);
+} 
+
+
