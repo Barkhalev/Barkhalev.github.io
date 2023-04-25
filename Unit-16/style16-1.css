@@ -1,0 +1,118 @@
+html,body{
+    min-height: 100vh;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+p{
+    font-size: 18px;
+}
+
+ /* --------------- mobile -> decktop ------------- */
+ img{
+    display: block;
+    width: 300px;
+    height: auto;
+    border: 10px solid red;
+}
+
+img.cat-kitten3{
+    display: none;
+}
+
+@media (min-width: 375px) and (max-width: 425px){
+    img{
+       border-color: blue; 
+    }
+    body{
+        background-color: gold;
+    }
+    p{
+        font-size: 18px;
+    }
+ 
+}
+
+@media (min-width: 768px){
+    img{
+        width: 500px;
+    }
+    body{
+        background-color: lightpink;
+    }
+    img.cat-kitten3{
+        display: block;
+    }
+    img.cat-kitten2{
+        display: none;
+    }
+    p{
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 992px){
+    img{
+        width: 700px;
+        border-color: greenyellow;
+    }
+    body{
+        background-color: red;
+    }
+    p{
+        font-size: 30px;
+    }
+}
+@media (min-width: 1200px){
+    img{
+        width: 900px;
+        border-color: palevioletred;
+    }
+    body{
+        background-color: green;
+    }
+    p{
+        font-size: 38px;
+    }
+}
+
+
+
+/* ---------------decktop -> mobile-------------
+img{
+    box-sizing: border-box;
+    display: block;
+    width: 900px;
+    height: auto;
+    border: 10px solid palevioletred;
+
+}
+
+@media (max-width: 1200px) and (min-width: 992px){
+    img{
+       border-color: blue; 
+    }
+}
+
+@media (max-width: 992px){
+    img{
+        width: 700px;
+        border-color: green;
+    }
+}
+
+@media (max-width: 768px){
+    img{
+        width: 500px;
+        border-color: greenyellow;
+    }
+}
+@media (max-width: 425px){
+    img{
+        width: 300px;
+        border-color: palevioletred;
+    }
+} */
