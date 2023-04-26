@@ -1,0 +1,12 @@
+:root{
+    --variabe: #ffffff;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: red;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
