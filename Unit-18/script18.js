@@ -27,7 +27,7 @@ console.log(typeof object);
 console.log(typeof array);
 */
 
-let obj = {};
+/* let obj = {};
 let arr = [
     123,
     'Hello World',
@@ -38,6 +38,7 @@ let arr = [
     },
     [1,2,3,4]
 ];
+*/
 
 /*console.log(arr);
 arr[777] = 'new element'
@@ -57,10 +58,11 @@ console.log('after delete', arr);
 
 
 
-let object = {
+/* let object = {
     prop1: '',
     prop2: 123
 }
+*/
 
 /* 
 *Массивы - это упорядоченные коллекции
@@ -122,7 +124,7 @@ if (year <= 2015) {
 */
 
 
-let userStatus = 'user'; //admin, user, manager, seo
+/*let userStatus = 'user'; //admin, user, manager, seo
 if (userStatus === 'admin' ) {
     console.log('Это администратор');
 } else if (userStatus === 'manager') {
@@ -132,7 +134,7 @@ if (userStatus === 'admin' ) {
 }else {
     console.log('Это простой пользователь');
 }
-
+*/
 
 /*//switch/case
 let userStatus = 'seo'; //admin, user, manager, seo
@@ -153,3 +155,99 @@ switch (userStatus) {
 */
 
 
+//Циклы for,while, do while
+// let arrFruits = ['apple', 'orange', 'grapes'];
+// /*debugger;
+// for (let index = 3; index < 7; index++) {
+//     console.log(index);
+// }*/
+
+// /*// debugger;
+// for(let i = 0; i < arrFruits.length; i++){
+//     console.log(arrFruits[i]);
+// }*/
+
+// /*let i = 0;
+// while ( i <= arrFruits.length) {
+//     console.log(arrFruits[i]);
+//     i++;
+// }*/
+
+// /*let i = 0;
+// do {
+//     console.log(arrFruits[i]);
+//     i++;    
+// } while ( i <= arrFruits );
+// */
+
+
+/*let arrFruits = ['apple', 'orange', 'grapes'];
+
+for(let i = 0; i < arrFruits.length; i++){
+    console.log(arrFruits[i]);
+}
+console.log('_______Циклы for of проходим по массивам___________________');
+
+for (const iterator of arrFruits) {
+    console.log(iterator);   
+}
+console.log('_______Циклы for in проходим по объектам___________________');
+
+let obj = {
+    arrFruits: ['apple', 'orange', 'grapes'],
+    user: {
+        age: 23,
+        name: 'Max'
+    },
+    status: 'admin'
+}
+for (const iterator in obj){
+    console.log('Свойство', iterator );
+    console.log( 'Значение', obj[iterator]);
+    console.log('^^^^^^^^^^^^^^^^^^^^^^^^^^^');
+    if (iterator === 'status') {
+        console.log('status');
+        delete obj.status;  
+    }
+}
+console.log(obj);
+*/
+
+const cart = [
+    {
+        id: 8798 ,
+        name: 'Яблоки',
+        price: 123.00 ,
+        articul: 123456,
+        status: true
+    },
+    {
+        id: 1234,
+        name: 'Груши',
+        price: 321.43,
+        articul: 654112,
+        status: true
+    },
+    {
+        id: 4132,
+        name: 'Бананы',
+        price: 102.78,
+        articul: 966325,
+        status: true
+    },
+];
+
+console.log(cart);
+
+//Добавляем товар в корзину
+setTimeout(() => { 
+    cart[cart.length] = {
+       id: 513 ,
+        name: 'Виноград',
+        price: 315.00,
+        articul: 544885,
+        status: true
+    };
+    console.log(cart);
+
+}, 3000)
