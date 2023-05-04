@@ -235,19 +235,21 @@ const cart = [
         articul: 966325,
         status: true
     },
-];
-
-console.log(cart);
-
-//Добавляем товар в корзину
-setTimeout(() => { 
-    cart[cart.length] = {
+    {
        id: 513 ,
         name: 'Виноград',
-        price: 315.00,
+        price: 215.00,
         articul: 544885,
         status: true
-    };
-    console.log(cart);
+    }
+];
 
-}, 3000)
+for (const iterator of cart) {
+    console.log(iterator.name);
+
+    for (const key in iterator) {
+        if (key === 'price') {
+        console.log(iterator[key] / 70);
+        }
+    }
+}
