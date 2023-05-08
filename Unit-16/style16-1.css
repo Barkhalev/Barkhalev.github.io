@@ -2,7 +2,7 @@ html,body{
     min-height: 100vh;
 }
 body{
-    display: flex;
+    display: flex ;
     align-items: center;
     justify-content: center;
     background-color: aquamarine;
