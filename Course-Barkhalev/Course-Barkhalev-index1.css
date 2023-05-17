@@ -1,0 +1,501 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 1);
+}
+
+/* -----------header---------------------------- */
+header.header{
+    width: 100%;
+    height: 768px;
+}
+div.conteiner{
+    margin: 0 0;
+    padding: 0 0;
+}
+nav.nav{
+    display: flex;
+    height: 87.94px;
+    width: 940.6px;
+    margin: 0 auto;
+    padding: 0 0;
+    border-bottom: 1px solid rgba(130, 130, 130, 1) ;
+
+}
+ul.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 940.6px;
+}
+li.nav{
+    height: 23.03px;
+    width: auto;
+}
+/* Текст по центру */
+li.nav{
+    transition: 1s; /* Время эффекта */
+    text-align: center; 
+}
+li.nav:hover {
+    transform: scale(1.5); /* Увеличиваем масштаб */
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(130, 130, 130, 1);
+}
+a.nav{
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(7, 7, 7, 1); 
+}
+
+
+/* -----------fase---------------------------- */
+
+section.fase{
+    width: 940.6px;
+    height: 679.56px;
+    margin: 0 auto;
+}
+div.fase{
+    display: flex;
+    height: 188.5px;
+    justify-content: space-between;
+    height: 188.5px;
+}
+h1.fase{
+    width: 123.51px;
+    height: 118.17px;
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: rgba(7, 7, 7, 1);
+    margin: 39.69px 0 0;    
+}
+p.fase__des{
+    width: 155.65px;
+    height: 44.06px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(7, 7, 7, 1);
+    margin: 94.77px 0 0;
+}
+div.fase__lang{
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    align-content: flex-start;
+    width: 65px;
+    height: 20.5px;
+    margin: 90.5px -20.6px 0px 20.6px ;
+    transform: rotate(-90deg);
+}
+/* Текст по центру */
+a.fase__lang{
+    transition: 1s; /* Время эффекта */
+    text-align: center; 
+}
+a.fase__lang:hover {
+    transform: scale(1.5); /* Увеличиваем масштаб */
+}
+a.fase__lang{
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+a.fase__lang_ru{
+    color: rgba(130, 130, 130, 1);
+}
+img.fase{
+    display: flex;
+    width: 943.61px;
+    height: 387px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+/* -----------main---------------------------- */
+main.main{
+    width: 100%;
+    height: auto;
+}
+/* -----------about---------------------------- */
+
+section.about{
+    width: 100%;
+    height: 506px;
+    background: rgba(246, 246, 246, 1);
+    margin: 0 0;
+    padding: 0 0;
+}
+div.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2.about{
+    width: 155.65px;
+    height: 43.06px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin: 120.25px 0 0;
+    color: rgba(7, 7, 7, 1);
+}
+
+ul.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 485.34px;
+    height: 218px;
+    list-style: none;
+    margin: 17.69px 0 0;
+    padding: 0 0;
+    gap: 44px;
+}
+li.about__text{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+/* -----------skills---------------------------- */
+
+section.skills{
+    width: 100%;
+    height: 610px;
+}
+div.skills{
+    width: 100%;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 124.52px;
+    height: 26.04px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: rgba(7, 7, 7, 1);
+    margin: 91px 0 0 0;
+}
+p.skills{
+    width: 227.95px;
+    height: 24.04px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(7, 7, 7, 1);
+    margin: 69.1px 0 0;
+}
+
+ul.skills{
+    width: 100%;
+    height: 399.82px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 90.25px;
+    align-items: center;
+    padding: 0 0;
+    margin: 83.49px 0 0;
+}
+
+/* -----------portfolio---------------------------- */
+
+section.portfolio{
+    height: 2253px;
+    background: rgba(246, 246, 246, 1);
+}
+div.portfolio{
+    width: 100%;
+    height: 2253px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2.portfolio{
+    width: 132.55px;
+    height: 43.06px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: rgba(7, 7, 7, 1);
+    margin: 112.93px 0 0 0;
+}
+img.portfolio{
+    width: 936.24px;
+    height: 510px;
+    margin: 47px 0 0;
+}
+a.portfolio{
+    width: 276.15px;
+    height: 22.03px;
+    margin: 44.88px 0 0;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgba(7, 7, 7, 1);
+}
+a.portfolio { 
+    box-shadow: 
+    inset 0 0 0 0 #54b3d6; 
+    margin: 0 -.25rem; 
+    padding: 0 .25rem; 
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out; 
+} 
+a.portfolio:hover { 
+    box-shadow: inset 300px 0 0 0 #54b3d6; 
+    color: white; 
+}
+
+/* ------Reebok------------------ */
+img.Reebok{
+    width: 936.24px;
+    height: 522px;
+    margin: 99.09px 0 0;
+}
+a.Reebok{
+    width: 202.84px;
+    height: 22.03px;
+    margin: 44.89px 0 0;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgba(7, 7, 7, 1);
+}
+a.Reebok {
+    padding: 10px; /* Поля вокруг текста */
+    transition: 1s linear; /* Время изменения */
+}
+a.Reebok:hover {
+    color: #fff; /* Цвет текста */
+    background: #f66d52; /* Цвет фона */
+}
+
+/* ------Braun------------------ */
+img.Braun{
+    width: 936.24px;
+    height: 522px;
+    margin: 99.08px 0 0;
+}
+a.Braun{
+    width: 259.08px;
+    height: 22.03px;
+    margin: 45.09px 0 0;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgba(7, 7, 7, 1);
+}
+a.Braun {
+    color: inherit;
+    text-decoration: none;
+} 
+a.Braun {
+    background:
+      linear-gradient(
+        to right,
+        rgba(100, 200, 200, 1),
+        rgba(100, 200, 200, 1)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+a.Braun:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
+/* -----------footer---------------------------- */
+footer.footer{
+    height: 622px;
+    background-color: rgba(255, 255, 255, 1);
+}
+div.footer{
+    width: 100%;
+    height: 622px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h2.footer{
+    width: 145.6px;
+    height: 43.06px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: rgba(7, 7, 7, 1);
+    margin: 114.24px 0 0 0;
+}
+h3.footer{
+    width: 275.14px;
+    height: 44.06px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(7, 7, 7, 1);
+    margin: 20.03px 0 0 ;
+}
+form.footer{
+    margin: 29.6px 0 0;
+}
+input.footer{
+    height: 42px;
+    width: 180.5px;
+    border-radius: 50px;
+    background-color:  rgba(7, 7, 7, 1);
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+}
+input.footer:hover{
+    background: transparent;
+    color: #222;
+    border-color: #4676d7;
+}
+ul.ico{
+    width: 100%;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 86px 0 0;
+    padding: 0 0;
+    gap: 61.35px;
+}
+/* УВЕЛИЧЕНИЕ КАРТИНКИ ПРИ НАВЕДЕНИИ CSS (HOVER) */
+.ico__linkedIn {
+    display: inline-block;
+    overflow: hidden;
+}
+.ico__linkedIn img{
+    transition: 1s;
+    display: block;
+}
+.ico__linkedIn img:hover{
+    transform: scale(1.5);
+    background-color: royalblue;
+}
+/* --------------- */
+.ico__behance{
+    display: inline-block;
+    overflow: hidden;
+}
+.ico__behance img{
+    transition: 1s;
+    display: block;
+}
+.ico__behance img:hover{
+    transform: scale(1.5);
+    background-color: yellow;
+}
+
+/* -КРАСИВОЕ ВРАЩЕНИЕ КАРТИНКИ ПРИ НАВЕДЕНИИ CSS-------------- */
+.ico__instagram{
+    width: 40px; 
+    height: 40px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.ico__instagram:hover{
+    border-radius: 50%;
+    background-color: green;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);           
+}
+/* --------------- */
+.ico__dribbble{
+    width: 40px; 
+    height: 40px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.ico__dribbble:hover{
+    border-radius: 50%;
+    background-color: blue;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);           
+}
+
+p.footer{
+    width: 243.01px;
+    height: 34.05px;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: rgba(130, 130, 130, 1);
+    margin: 45.98px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
