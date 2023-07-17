@@ -1,0 +1,44 @@
+html,body{
+    min-height: 100vh;
+    margin: 0 0;
+    padding: 0 0;
+}
+body{
+    display: block ;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+div.fase{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: blue;
+    margin: 10px 0px;
+}
+img.faseM{
+    display: flex;
+    width: 200px;
+    height: auto;
+    margin: 0px 0px ;
+}
+h1{
+    display: flex;
+    width: 120px;
+    height: auto;
+    font-size: 24px;
+    text-align: center;
+    background-color: red;
+    margin: 0px 0px;
+}
+p{
+    display: flex;
+
+    width: 150px;
+    height: auto;
+    font-size: 18px;
+    background-color: green;
+    margin: 0px 0px;
+}

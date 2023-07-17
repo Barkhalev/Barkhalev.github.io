@@ -1,0 +1,267 @@
+
+@font-face {
+    font-family: 'Gilroy';
+  src: url("font-family/Gilroy-Bold.eot");
+  src: local("Gilroy Bold"), local("Gilroy-Bold"), 
+  url("font-family/Gilroy-Bold.eot") format("embedded-opentype"), 
+  url("font-family/Gilroy-Bold.woff2") format("woff2"), 
+  url("font-family/Gilroy-Bold.woff") format("woff"), 
+  url("font-family/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+  src: url("font-family/Gilroy-Medium.eot");
+  src: local("Gilroy Medium"), local("Gilroy-Medium"), 
+  url("font-family/Gilroy-Medium.eot") format("embedded-opentype"), 
+  url("font-family/Gilroy-Medium.woff2") format("woff2"), 
+  url("font-family/Gilroy-Medium.woff") format("woff"), 
+  url("font-family/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.bod{
+    width: 100%;
+    /* width: 1445px;
+    height: 4759px; */
+    margin: 0 0;
+    padding: 0 0;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block ;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+/* -----------header---------------------------- */
+header.header{
+    width: 100%;
+    height: 768px;
+    /* background-color: rgb(21, 189, 63); */
+}
+
+@media (max-width: 375px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+div.conteiner{
+    margin: 0 0;
+    padding: 0 0;
+    /* background-color: rgb(136, 165, 190); */
+}
+
+
+nav.nav{
+    display: flex;
+    height: 87.94px;
+    width: 940.6px;
+    margin: 0 auto;
+    padding: 0 0;
+    border-bottom: 1px solid rgba(130, 130, 130, 1) ;
+
+}
+
+button.nav{
+    display: none;
+}
+
+@media (max-width: 375px){
+    button.nav{
+        display: block;
+        width: 33px;
+        height: 20px;
+        padding: 0 0 ;
+        margin: 68px 0px 0px 312px;
+    }
+    nav.nav{
+        display: none;
+    }
+}
+
+
+ul.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 940.6px;
+}
+li.nav{
+    height: 23.03px;
+    width: auto;
+}
+/* Текст по центру */
+li.nav{
+    transition: 1s; /* Время эффекта */
+    text-align: center; 
+}
+li.nav:hover {
+    transform: scale(1.5); /* Увеличиваем масштаб */
+}
+
+a{
+    text-decoration: none;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(130, 130, 130, 1);
+}
+a.nav{
+    font-family: Gilroy;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(7, 7, 7, 1); 
+}
+
+
+
+
+/* -----------fase---------------------------- */
+
+section.fase{
+    width: 940.6px;
+    height: 679.56px;
+    margin: 0 auto;
+}
+div.fase{
+    display: flex;
+    height: 188.5px;
+    background-color: blueviolet;
+}
+
+
+@media (max-width: 375px){
+    div.fase{
+        display: block;
+    }
+}
+
+h1.fase{
+    width: 123.51px;
+    height: 118.17px;
+    font-family: Gilroy;
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: rgba(7, 7, 7, 1);
+    margin: 39.69px 0 0;
+    background-color: green;    
+}
+
+@media (max-width: 375px){
+    h1.fase{
+    width: 124px;
+    height: 106px;
+    margin: -35px 0 0 26px;
+    }
+}
+
+p.fase__des{
+    width: 155.65px;
+    height: 44.06px;
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(7, 7, 7, 1);
+    margin: 94.77px 0 0;
+}
+@media (max-width: 375px){
+    p.fase__des{
+        width: 155.65px;
+        height: 44.06px;
+        margin: 23px 0 0 28px;
+    }
+}
+
+div.fase__lang{
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    align-content: flex-start;
+    width: 65px;
+    height: 20.5px;
+    /* margin: 90.5px -20.6px 0px 20.6px ; */
+    /* transform: rotate(-90deg); */
+    background-color: red;
+}
+
+
+img.faseMenuM{
+    display: none;
+}
+@media (max-width: 375px){
+    div.fase__lang{
+        display: none;
+    }
+}
+
+
+/* Текст по центру */
+a.fase__lang{
+    transition: 1s; /* Время эффекта */
+    text-align: center; 
+}
+a.fase__lang:hover {
+    transform: scale(1.5); /* Увеличиваем масштаб */
+}
+a.fase__lang{
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+a.fase__lang_ru{
+    color: rgba(130, 130, 130, 1);
+}
+
+
+img.fasePC{
+    display: block;
+    width: 943.61px;
+    height: 387px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+img.faseM{
+    display: none;
+}
+
+@media (max-width: 375px){
+    img.faseM{
+        display: block;
+        width: 317px;
+        height: 478px;
+        margin: 0px 0 0 29.5px;
+        /* justify-content: center;
+        align-items: center;
+        align-content: center; */
+    }
+    img.fasePC{
+        display: none;
+    }
+}
+
+
+
+
+
+

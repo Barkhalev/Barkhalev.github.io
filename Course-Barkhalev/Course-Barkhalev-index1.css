@@ -46,7 +46,7 @@ nav.nav{
     display: flex;
     height: 87.94px;
     width: 940.6px;
-    margin: 0 auto;
+    margin: 0px 0px 0px 0px;
     padding: 0 0;
     border-bottom: 1px solid rgba(130, 130, 130, 1) ;
 
@@ -151,7 +151,7 @@ p.fase__des{
     font-size: 18px;
     line-height: 22px;
     color: rgba(7, 7, 7, 1);
-    margin: 94.77px 0 0;
+    margin: 93px 0 0 0px;
 }
 @media (max-width: 375px){
     p.fase__des{
@@ -170,7 +170,11 @@ div.fase__lang{
     margin: 90.5px -20.6px 0px 20.6px ;
     transform: rotate(-90deg);
 }
-
+@media (max-width: 375px){
+    div.fase__lang{
+        display: none;
+    }
+}
 
 
 
@@ -246,7 +250,7 @@ h2.about{
     font-size: 34px;
     line-height: 42px;
     text-align: center;
-    margin: 116.25px 0px 0px 64px;
+    margin: 116.25px 0px 0px 42px;
     color: rgba(7, 7, 7, 1);
 }
 
@@ -258,7 +262,7 @@ ul.about{
     width: 485.34px;
     height: 218px;
     list-style: none;
-    margin: 22px 0px 0px 59px;
+    margin: 22px 0px 0px 39px;
     padding: 0 0;
     gap: 44px;
 }

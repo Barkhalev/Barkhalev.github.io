@@ -1,1 +1,13 @@
 /* body{background-color: rgb(175, 28, 28);} */
+h1 {
+    font-size: 200px;
+}
+button {
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+    background-color: red;
+    border-radius: 100px;
+}
+
+
