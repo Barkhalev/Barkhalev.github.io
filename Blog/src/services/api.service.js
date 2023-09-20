@@ -43,4 +43,4 @@ async function useRequest(request) {
     return await response.json()
 }
 
-export const apiService = new ApiService('https://blog-js-d499b-default-rtdb.firebaseio.comgi')
+export const apiService = new ApiService('https://blog-js-d499b-default-rtdb.firebaseio.com')
